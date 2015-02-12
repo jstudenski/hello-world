@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def hello
-    render text: "all your base are belong to us."
+    render text: "All your base are belong to us."
   end
 
 
